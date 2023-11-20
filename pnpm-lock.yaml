@@ -620,8 +620,8 @@ importers:
         version: file:playground/external/dep-that-requires
     devDependencies:
       slash3:
-        specifier: npm:slash@^3.0.0
-        version: /slash@3.0.0
+        specifier: npm:slash@^5.1.0
+        version: /slash@5.1.0
       slash5:
         specifier: npm:slash@^5.1.0
         version: /slash@5.1.0
@@ -635,8 +635,8 @@ importers:
   playground/external/dep-that-imports:
     dependencies:
       slash3:
-        specifier: npm:slash@^3.0.0
-        version: /slash@3.0.0
+        specifier: npm:slash@^5.1.0
+        version: /slash@5.1.0
       slash5:
         specifier: npm:slash@^5.1.0
         version: /slash@5.1.0
@@ -647,8 +647,8 @@ importers:
   playground/external/dep-that-requires:
     dependencies:
       slash3:
-        specifier: npm:slash@^3.0.0
-        version: /slash@3.0.0
+        specifier: npm:slash@^5.1.0
+        version: /slash@5.1.0
       slash5:
         specifier: npm:slash@^5.1.0
         version: /slash@5.1.0
@@ -9262,6 +9262,7 @@ packages:
   /slash@3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
+    dev: true
 
   /slash@4.0.0:
     resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
@@ -10458,7 +10459,7 @@ packages:
     resolution: {directory: playground/external/dep-that-imports, type: directory}
     name: '@vitejs/test-dep-that-imports'
     dependencies:
-      slash3: /slash@3.0.0
+      slash3: /slash@5.1.0
       slash5: /slash@5.1.0
       vue: 3.3.4
     dev: false
@@ -10467,7 +10468,7 @@ packages:
     resolution: {directory: playground/external/dep-that-requires, type: directory}
     name: '@vitejs/test-dep-that-requires'
     dependencies:
-      slash3: /slash@3.0.0
+      slash3: /slash@5.1.0
       slash5: /slash@5.1.0
       vue: 3.3.4
     dev: false
