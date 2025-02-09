@@ -8,10 +8,10 @@
     "build:worker": "vite build --ssr src/entry-worker.jsx --outDir dist/worker"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.3.1"
   },
   "devDependencies": {
-    "miniflare": "^3.20230807.0",
+    "miniflare": "^3.20250129.0",
     "@vitejs/test-resolve-linked": "workspace:*"
   }
 }
